@@ -30,7 +30,7 @@ var Thumbnail = React.createClass({
 		return (
 			<div className='image-field image-sortable row col-sm-3 col-md-12' title={title}> 
 				<div className={previewClassName}> 
-					<a href={imgUrl} className='img-thumbnail'>
+					<a href={imgUrl} className='img-thumbnail' target='_view'>
 						<img style={styles} className='img-load' src={imgUrl} />
 						<span className={iconClassName} />
 					</a>
