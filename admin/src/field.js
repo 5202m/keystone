@@ -29,5 +29,6 @@ module.exports = {
 	textarea:         require('../../fields/types/textarea/TextareaField'),
 	textarray:        require('../../fields/types/textarray/TextArrayField'),
 	url:              require('../../fields/types/url/UrlField'),
-	viewimage:		  require('../../fields/types/viewimage/ViewImageField')
+	viewimage:		  require('../../fields/types/viewimage/ViewImageField'),
+	viewimages:		  require('../../fields/types/viewimages/ViewImagesField')
 };
